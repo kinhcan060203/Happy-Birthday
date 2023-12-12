@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+ 
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<link rel="icon" type="image/png" href="./img/CILKGax.png">
         <!-- Tiêu đề của trang dòng thời gian -->
@@ -63,7 +64,43 @@
                 transition: opacity 5s ease-out;
 
             }
+            #main{
+                position: absolute;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                font-size: 14px;
+                color: red;
+                overflow: hidden;
+                opacity: 1;
+                height: 100%;
+                width: 100%;
+                animation: animation-change-bg 120s linear infinite;
+                background-image: url("./img/hpbd-2.jpg");
+                animation-delay: 16s;
+            }
+   
+            @keyframes animation-change-bg {
+
+                0% {
+                    background-image: url("./img/hpbd-2.jpg");
+
+                }
+                25% {
+                    background-image: url("./img/hpbd.jpg");
+
+                }
+                50% {
+                    background-image: url("./img/hpbd-1.jpg");
+                }
+                75% {
+                    background-image: url("./img/9SHW2XH.jpg");
+                }
+                100% {
+                    background-image: url("./img/hpbd-2.jpg");
+                }
       
+            }
             @keyframes animation-conmeo-1 {
                 0% {top: 0px;}
                 50% {top: 14px;}
@@ -74,60 +111,89 @@
                 50% {right: 158px;}
                 100% {right: 120px;}
             }
+
         </style>
         
 </head>
     <body>
-   
         <div id="main">
-             <div id="wrap">
-                <section class="hpbd-text conmeo">
-                    <div class="content">
-                      <h2>10/12/2023</h2>
-                      <h2>10/12/2023</h2>
-                    </div>
-                  </section>
-                <div class="conmeo-1 conmeo">
-                    <img src="./img/nga-3.jpg" alt="" class="cover" />
-                </div>
-                <div id="text">
-                    <div id="code">
-                                    <!-- 4. CHỈNH SỬA LỜI CHÚC CỦA BẠN TẠI ĐÂY-->
-                                <font color="white"><span class="say">Chúc mừng sinh nhật chị nhé hehe!!!</span><br>
-                                        <span class="say">Sorry vì đã nhớ nhầm sinh nhật chị hihi ^..^. Mà dù sao đi nữa thì chị tui lại già đi thêm một tuổi nữa rồi. </span><br>
-                                        <span class="say">Chúc chị tuổi mới có thật nhiều niềm vui và kỉ niệm đẹp nhé :)))</span><br>
-                                        <span class="say">Sang tuổi mới càng thêm xinh xắn, tươi tắn và càng ráng ===================)) học giỏi nè</span><br>
-                                        <span class="say">Nhưng hãy nhớ tự yêu thương, chăm sóc bản thân tốt đi nha, học nhìu rồi cũng quên à!</span><br>
-                                        <span class="say">Mừng một ngày sinh nhật thật đặc biệt cùng khởi đầu mới đầy nhiệm màu.</span><br>
-                                        <span class="say">..........................................................snvv(sinh nhật vật vả!).</span><br>
-                                        <span class="say"><span class="space"></span><strong style="color: #dfff00;">
-                                            -- Hồi Trạm Kí --
-                                        </strong></span>
-                            </font></p> 
-                    </div>
-           
+            <div class="bg-01">
+                <div class="bg-02">
+                <div class="bg-03">
+                    <div id="wrap">
+                        <section class="hpbd-text conmeo">
+                            <div class="content">
+                              <h2>10/12/2023</h2>
+                              <h2>10/12/2023</h2>
+                            </div>
+                          </section>
+                        <div class="conmeo-1 conmeo">
+                            <img src="./img/nga-3.jpg" alt="" class="cover" />
+                        </div>
+                        <div id="text">
+                            <div id="code">
+                                            <!-- 4. CHỈNH SỬA LỜI CHÚC CỦA BẠN TẠI ĐÂY-->
+                                        <font color="white"><span class="say">Chúc mừng sinh nhật chị nhé hehe!!!</span><br>
+                                                <span class="say">Sorry vì đã nhớ nhầm sinh nhật chị hihi ^..^. Mà dù sao đi nữa thì chị tui lại già đi thêm một tuổi nữa rồi. </span><br>
+                                                <span class="say">Chúc chị tuổi mới có thật nhiều niềm vui và kỉ niệm đẹp nhé :)))</span><br>
+                                                <span class="say">Sang tuổi mới càng thêm xinh xắn, tươi tắn và càng ráng ===================)) học giỏi nè</span><br>
+                                                <span class="say">Nhưng hãy nhớ tự yêu thương, chăm sóc bản thân tốt đi nha, học nhìu rồi cũng quên à!</span><br>
+                                                <span class="say">Mừng một ngày sinh nhật thật đặc biệt cùng khởi đầu mới đầy nhiệm màu.</span><br>
+                                                <span class="say">..........................................................snvv(sinh nhật vật vả!).</span><br>
+                                                <span class="say"><span class="space"></span><strong style="color: #dfff00;">
+                                                    -- Hồi Trạm Kí --
+                                                </strong></span>
+                                    </font></p> 
+                            </div>
                    
+                           
+                        </div>
+                        <div class="conmeo-2 conmeo">
+                            <img src="./img/nga-4.jpg" alt="" class="cover" />
+                        </div>
+                        <div id="clock-box">
+                          <div id="clock"></div>
+                      </div>
+                        <canvas id="canvas"></canvas>
+                    </div>
                 </div>
-                <div class="conmeo-2 conmeo">
-                    <img src="./img/nga-4.jpg" alt="" class="cover" />
                 </div>
-                <div id="clock-box">
-                  <div id="clock"></div>
-              </div>
-                <canvas id="canvas"></canvas>
             </div>
             
         </div>
 
     <!-- Phần nhạc -->
-    <audio id="player" autoplay loop>
-        <source src="music\music.mp3" type="audio/mp3" />
+    <audio id="player">
+        <source src="music/music.mp3" type="audio/mpeg"/>
     </audio>
+
     <script>
     (function(){
         var canvas = $('#canvas');
         let conmeo = document.getElementsByClassName('conmeo');
-
+        let player = document.getElementById("player")
+        player.load();
+        let playlist = ['music/music-2.mp3','music/music-1.mp3','music/music.mp3']
+        pl = playlist.length
+        let i = 0
+        while (++i < 10) {
+            let j = -1
+            while (++j < pl) {
+                playlist.push(playlist[j])
+            }
+        }
+        i = 0
+        player.addEventListener('ended',function(){
+            player.src = playlist[i];// you can probably load this from an array of songs URL that you can maintain 
+            player.pause();
+            player.load();
+            player.play();
+            i++
+        });
+    
+        // player.attributes.loop.value=true;
+        // console.log(player.attributes)
+        
 
         if (!canvas[0].getContext) {
             $("#error").show();
@@ -193,26 +259,32 @@
             x = e.pageX - offset.left;
             y = e.pageY - offset.top;
             canvas.toggleClass('hand', seed.hover(x, y));
+
         });
 
         var seedAnimate = eval(Jscex.compile("async", function () {
+
             seed.draw();
             while (hold) {
                 $await(Jscex.Async.sleep(10));
             }
             while (seed.canScale()) {
+
                 seed.scale(0.95);
                 $await(Jscex.Async.sleep(10));
             }
             while (seed.canMove()) {
+                player.play()
                 seed.move(0, 2);
                 foot.draw();
                 $await(Jscex.Async.sleep(10));
             }
+
         }));
 
         var growAnimate = eval(Jscex.compile("async", function () {
             do {
+
     	        tree.grow();
                 $await(Jscex.Async.sleep(10));
             } while (tree.canGrow());
@@ -293,6 +365,8 @@
     })();
     </script>
     <script src="js/snowstorm-min.js"></script>
+
 </div>
 </body>
+
 </html>
